@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="344.0" stylesheets="@design.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourcefile.MainWindowController">
+   <padding>
+      <Insets top="5.0" />
+   </padding>
+   <children>
+      <Pane layoutX="5.0" layoutY="41.0" prefHeight="433.0" prefWidth="333.0" styleClass="mainPane">
+         <children>
+            <Pane layoutX="13.0" layoutY="7.0" prefHeight="67.0" prefWidth="306.0" styleClass="screenPane">
+               <children>
+                  <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="35.0" layoutY="34.0" prefHeight="23.0" prefWidth="257.0" text="0.0">
+                     <font>
+                        <Font name="Arial Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b7" layoutX="14.0" layoutY="101.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="17.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="7">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b8" layoutX="97.0" layoutY="101.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="8">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b8" layoutX="178.0" layoutY="101.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="9">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bdiv" layoutX="261.0" layoutY="101.0" onMouseClicked="#onSymbolClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="/">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b4" layoutX="14.0" layoutY="167.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="4">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b5" layoutX="97.0" layoutY="167.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="17.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="5">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b6" layoutX="178.0" layoutY="167.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="6">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bMul" layoutX="261.0" layoutY="167.0" onMouseClicked="#onSymbolClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="19.0" layoutY="14.0" prefHeight="23.0" prefWidth="11.0" text="*">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b1" layoutX="14.0" layoutY="235.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="1">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane layoutX="97.0" layoutY="235.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="2">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b3" layoutX="178.0" layoutY="235.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="17.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="3">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bMInus" layoutX="261.0" layoutY="235.0" onMouseClicked="#onSymbolClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="21.0" layoutY="4.0" prefHeight="23.0" prefWidth="11.0" text="-">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="b0" layoutX="14.0" layoutY="304.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="18.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="0">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bdot" layoutX="97.0" layoutY="304.0" onMouseClicked="#onMouseClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="22.0" prefHeight="23.0" prefWidth="20.0" text=".">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bequal" layoutX="178.0" layoutY="304.0" onMouseClicked="#onSymbolClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="17.0" layoutY="6.0" prefHeight="23.0" prefWidth="11.0" text="=">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bPlus" layoutX="261.0" layoutY="304.0" onMouseClicked="#onSymbolClicked" prefHeight="54.0" prefWidth="55.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="17.0" layoutY="7.0" prefHeight="23.0" prefWidth="11.0" text="+">
+                     <font>
+                        <Font name="Arial Italic" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bClear" layoutX="95.0" layoutY="378.0" onMouseClicked="#onSymbolClicked" prefHeight="42.0" prefWidth="144.0" styleClass="screenPane">
+               <children>
+                  <Label layoutX="32.0" layoutY="1.0" prefHeight="41.0" prefWidth="80.0" text="Clear">
+                     <font>
+                        <Font name="Arial Italic" size="30.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="titlePane" prefHeight="42.0" prefWidth="336.0" styleClass="barPane">
+         <children>
+            <ImageView fx:id="btnExit" fitHeight="25.0" fitWidth="25.0" layoutX="297.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cross.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnMinimize" fitHeight="25.0" fitWidth="25.0" layoutX="246.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/minimized.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/calculator_icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="45.0" layoutY="7.0" text="Calculator">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

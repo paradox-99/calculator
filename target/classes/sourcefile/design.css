@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color:rgb(176, 240, 0);
+    -fx-background-radius: 25;
+}
+
+.mainPane{
+    -fx-background-color: linear-gradient(to bottom right, #ff7f50, #6a5acd);
+    -fx-background-radius: 10 10 25 25;
+}
+
+.barPane{
+    -fx-background-radius: 0 0 25 25;
+}
+
+.screenPane{
+    -fx-background-color: #ffffffaf;
+    -fx-background-radius: 15;
+}

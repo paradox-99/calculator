@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sourcefile3.cont">
+   <children>
+      <TextField fx:id="number1" layoutX="76.0" layoutY="48.0" promptText="Enter text" text="Number1" />
+      <TextField fx:id="number2" layoutX="76.0" layoutY="104.0" promptText="enter text" text="Number2" />
+      <Button layoutX="275.0" layoutY="74.0" mnemonicParsing="false" onAction="#okdone" text="OK" />
+      <TextField fx:id="resnum1" layoutX="353.0" layoutY="200.0" promptText="dfd" text="rws" />
+      <TextField fx:id="resnum2" layoutX="354.0" layoutY="276.0" promptText="fg" text="res" />
+   </children>
+</AnchorPane>

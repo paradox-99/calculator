@@ -1,0 +1,57 @@
+.root{
+    -fx-background-color: linear-gradient(to bottom right, #dbf300, rgb(0, 255, 225));
+    -fx-background-radius: 20 20 20 20 ;
+}
+
+.screenPane{
+    -fx-background-color: linear-gradient(to bottom left, #e9874a, rgb(114, 234, 103));
+    -fx-background-radius: 20 20 20 20;
+} 
+
+.buttonDesignSEN{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignSEN:hover{
+    -fx-background-color: linear-gradient(to bottom right, #0217ff8a, rgba(251, 0, 255, 0.502));
+}
+
+.buttonDesignClr{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignClr:hover{
+    -fx-background-color: linear-gradient(to top left, #04fcf4bd, rgba(119, 255, 0, 0.733));
+}
+
+.buttonDesignFFS{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignFFS:hover{
+    -fx-background-color: linear-gradient(to top left, #ffc402b0, rgba(255, 0, 25, 0.6));
+}
+
+.buttonDesignOTTZ{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignOTTZ:hover{
+    -fx-background-color: linear-gradient(to bottom right, #ffea0249, rgba(251, 0, 255, 0.502));
+}
+
+.buttonDesignDE{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignDE:hover{
+    -fx-background-color: linear-gradient(to bottom right, #02ff96e5, rgb(255, 61, 61));
+}
+
+.buttonDesignASMD{
+    -fx-background-color: transparent;
+}
+
+.buttonDesignASMD:hover{
+    -fx-background-color: linear-gradient(to bottom right, #ffea02f2, rgb(30, 255, 0));
+}
